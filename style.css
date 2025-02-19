@@ -49,10 +49,35 @@ aside{
     "nav footer footer";
     grid-template-rows: 100px 1fr 1fr 75px;
     grid-template-columns: 20% auto 15%;
+
+    /*Unidade de medida - Meta tag*/
+    /* vh da largura da tela do usuário */
+    height: 100vh;  /*Pega a tela inteira de cima a baixo--Equivale a 100%*/
+    width: 100vh; /**/
 }
 
 #grade > *{
     border: 1px solid black;
 }
 
+.pai {
+    display: grid;
+    background-color: #fff;
+    height: 500px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px;
+
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+    justify-items: stretch;
+    
+    align-items: stretch;
+
+    justify-content: center;
+
+    justify-content: center;
+    
+    align-content: center;
+}
 
