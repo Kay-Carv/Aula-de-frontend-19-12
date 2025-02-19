@@ -81,7 +81,7 @@ aside{
     align-content: center;
 }
 
-/*Adicionando estilisação nos elementos filho para melhor visualização das alterações que serão feitas usando o inspecionar*/
+/*Adicionando estilização nos elementos filho para melhor visualização das alterações que serão feitas usando o inspecionar*/
 .pai > * {
     background-color: rgb(204, 29, 29);
     border: solid 1px black;
