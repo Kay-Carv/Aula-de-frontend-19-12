@@ -1,0 +1,58 @@
+
+
+
+.grid {
+    display: grid;
+    /*fr = separar em frações*/
+    grid-template-columns: 2fr 1fr;
+    /*2 linhas*/
+    grid-template-rows: 1fr 1fr;
+    /*Espaçamento no grid */
+    gap: 15px 10px; /*Aplica em todas*/
+    column-gap: 10px;
+    row-gap: 15px;
+}
+
+.grid > * {
+    background-color: orange;
+    border-radius: 5px;
+    /* bd = Atalho em emmit */
+    border: 1px solid rgb(145, 97, 9);
+    padding: 5%;
+}
+
+header{
+    grid-area: header;
+}
+footer {
+    grid-area: footer;
+}
+section #produtos {
+    grid-area: produtos;
+}
+section #servicos {
+    grid-area: servicos;
+}
+nav{
+    grid-area: nav;
+}
+aside{
+    grid-area: publicidade;
+}
+
+#grade {
+    display: grid;
+    grid-template-areas: 
+    "nav header header"
+    "nav produtos publicidade"
+    "nav servicos publicidade"
+    "nav footer footer";
+    grid-template-rows: 100px 1fr 1fr 75px;
+    grid-template-columns: 20% auto 15%;
+}
+
+#grade > *{
+    border: 1px solid black;
+}
+
+
