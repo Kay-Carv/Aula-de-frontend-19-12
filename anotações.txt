@@ -1,0 +1,37 @@
+Front end		17/02/2025
+Prof° Lucas
+------------------------------------
+Semana que vem teremos as datas dos CH
+Fazer as atividades dos fins dos slides
+
+------------------------------------
+GRID
+
+Sistema de layout - (Grade)
+Flex         vs   grid
+mais local	  2 Dimenções	
+
+
+
+
+-----------------------------------
+->ATALHOS DE EMMET
+
+section.grid>
+
+
+
+-----------------------------------
+
+Repertório
+
+->Mockup -- Divisão de uma página
+->Emmet -- Atalhos em HTML e CSS
+	section.grid>div{Item $} *4|
+->FRAMEWORK--Bootstrap
+
+->Grid área
+
+-----------------------------------
+OBS:
+ELE FALA MUUUUITO RÁPIDO 

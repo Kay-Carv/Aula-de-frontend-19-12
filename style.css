@@ -71,9 +71,9 @@ aside{
     grid-row-gap: 5px;
 
     justify-items: stretch;
-    
-    align-items: stretch;
 
+    align-items: stretch;
+    
     justify-content: center;
 
     justify-content: center;
@@ -81,3 +81,10 @@ aside{
     align-content: center;
 }
 
+/*Adicionando estilisação nos elementos filho para melhor visualização das alterações que serão feitas usando o inspecionar*/
+.pai > * {
+    background-color: rgb(204, 29, 29);
+    border: solid 1px black;
+    width: auto;
+    height: auto;
+}
